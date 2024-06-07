@@ -5,11 +5,9 @@
                       https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>io.github.yovvis</groupId>
+    <groupId>cn.tenyon</groupId>
     <artifactId>easy-open-api-client-sdk</artifactId>
     <version>1.0.0</version>
-
-    <packaging>jar</packaging>
 
     <name>${project.groupId}:${project.artifactId}</name>
     <description>easy-open-api-client-sdk</description>
@@ -69,13 +67,24 @@
             <name>Yovvis</name>
             <email>tenyon61@gmail.com</email>
             <roles>
-                <role>Developer</role>
+                <role>Project Manager</role>
             </roles>
             <timezone>+8</timezone>
         </developer>
     </developers>
     <build>
         <plugins>
+            <plugin>
+                <groupId>org.sonatype.central</groupId>
+                <artifactId>central-publishing-maven-plugin</artifactId>
+                <version>0.4.0</version>
+                <extensions>true</extensions>
+                <configuration>
+                    <!-- 这里的serverId是之前在settings.xml中配置的 -->
+                    <publishingServerId>yovvis</publishingServerId>
+                    <tokenAuth>true</tokenAuth>
+                </configuration>
+            </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-source-plugin</artifactId>
