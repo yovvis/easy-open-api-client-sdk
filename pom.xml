@@ -60,8 +60,8 @@
     <!-- 填写 github 对应库的 https地址 -->
     <scm>
         <connection>https://github.com/yovvis/easy-open-api-client-sdk.git</connection>
-        <url>https://github.com/yovvis/easy-open-api-client-sdk/main</url>
         <developerConnection>scm:git:ssh://github.com:yovvis/easy-open-api-client-sdk.git</developerConnection>
+        <url>https://github.com/yovvis/easy-open-api-client-sdk/tree/main</url>
     </scm>
     <!-- 开发者的信息 -->
     <developers>
