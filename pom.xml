@@ -7,7 +7,7 @@
 
     <groupId>com.ayfox.central</groupId>
     <artifactId>easy-open-api-client-sdk</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
 
     <name>${project.groupId}:${project.artifactId}</name>
     <description>easy-open-api-client-sdk</description>
