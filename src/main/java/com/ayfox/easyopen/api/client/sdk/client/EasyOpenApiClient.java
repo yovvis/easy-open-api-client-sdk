@@ -1,18 +1,18 @@
-package com.cuuxx.easyopen.api.client.sdk.client;
+package com.ayfox.easyopen.api.client.sdk.client;
 
 import cn.hutool.core.util.RandomUtil;
 import cn.hutool.http.HttpRequest;
 import cn.hutool.http.HttpResponse;
 import cn.hutool.http.HttpUtil;
 import cn.hutool.json.JSONUtil;
-import com.cuuxx.easyopen.api.client.sdk.model.SdkUser;
+import com.ayfox.easyopen.api.client.sdk.model.SdkUser;
 
 
 import java.nio.charset.StandardCharsets;
 import java.util.HashMap;
 import java.util.Map;
 
-import static com.cuuxx.easyopen.api.client.sdk.utils.SignUtils.getSign;
+import static com.ayfox.easyopen.api.client.sdk.utils.SignUtils.getSign;
 
 
 /**

@@ -1,4 +1,4 @@
-package com.cuuxx.easyopen.api.client.sdk.utils;
+package com.ayfox.easyopen.api.client.sdk.utils;
 
 import cn.hutool.crypto.digest.DigestAlgorithm;
 import cn.hutool.crypto.digest.Digester;

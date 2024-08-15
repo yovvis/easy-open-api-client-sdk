@@ -1,4 +1,4 @@
-package com.cuuxx.easyopen.api.client.sdk.model;
+package com.ayfox.easyopen.api.client.sdk.model;
 
 import lombok.Data;
 

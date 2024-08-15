@@ -1,6 +1,6 @@
-package com.cuuxx.easyopen.api.client.sdk;
+package com.ayfox.easyopen.api.client.sdk;
 
-import com.cuuxx.easyopen.api.client.sdk.client.EasyOpenApiClient;
+import com.ayfox.easyopen.api.client.sdk.client.EasyOpenApiClient;
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Bean;

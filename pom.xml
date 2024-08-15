@@ -5,7 +5,7 @@
                       https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>cn.tenyon</groupId>
+    <groupId>com.ayfox.central</groupId>
     <artifactId>easy-open-api-client-sdk</artifactId>
     <version>1.0.0</version>
 
@@ -19,9 +19,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
-        <!-- spring -->
         <spring-boot.version>2.7.12</spring-boot.version>
-        <!-- tools -->
         <hutool.verson>5.8.16</hutool.verson>
     </properties>
 

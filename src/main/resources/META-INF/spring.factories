@@ -1,2 +1,2 @@
 # springboot starter
-org.springframework.boot.autoconfigure.EnableAutoConfiguration =com.cuuxx.easyopen.api.client.sdk.EasyOpenApiClientConfig
+org.springframework.boot.autoconfigure.EnableAutoConfiguration =com.ayfox.easyopen.api.client.sdk.EasyOpenApiClientConfig
