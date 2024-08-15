@@ -9,10 +9,6 @@
     <artifactId>easy-open-api-client-sdk</artifactId>
     <version>1.0.1</version>
 
-    <name>${project.groupId}:${project.artifactId}</name>
-    <description>easy-open-api-client-sdk</description>
-    <url>https://github.com/yovvis/easy-open-api-client-sdk</url>
-
     <properties>
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -22,6 +18,12 @@
         <spring-boot.version>2.7.12</spring-boot.version>
         <hutool.verson>5.8.16</hutool.verson>
     </properties>
+
+    <packaging>jar</packaging>
+
+    <name>${project.groupId}:${project.artifactId}</name>
+    <description>easy-open-api-client-sdk</description>
+    <url>https://github.com/yovvis/easy-open-api-client-sdk</url>
 
     <dependencies>
         <dependency>
